@@ -1,0 +1,287 @@
+Start testing: Mar 06 19:53 EST
+----------------------------------------------------------
+1/14 Testing: test_default_dgz
+1/14 Test: test_default_dgz
+Command: "/home/liu/kripke/kripke-openmp-1.1/build/kripke" "--nest" "dgz" "--test"
+Directory: /home/liu/kripke/kripke-openmp-1.1/build
+"test_default_dgz" start time: Mar 06 19:53 EST
+Output:
+----------------------------------------------------------
+
+----------------------------------------------------------------------
+------------------------ KRIPKE VERSION 1.1 --------------------------
+----------------------------------------------------------------------
+This work was produced at the Lawrence Livermore National Laboratory
+(LLNL) under contract no. DE-AC-52-07NA27344 (Contract 44) between the
+U.S. Department of Energy (DOE) and Lawrence Livermore National
+Security, LLC (LLNS) for the operation of LLNL. The rights of the
+Federal Government are reserved under Contract 44.
+
+Main Contact: Adam J. Kunen <kunen1@llnl.gov>
+----------------------------------------------------------------------
+Number of MPI tasks:   1
+Processors:            1 x 1 x 1
+Zones:                 16 x 16 x 16
+Legendre Order:        4
+Total X-Sec:           sigt=[0.100000, 0.000100, 0.100000]
+Scattering X-Sec:      sigs=[0.050000, 0.000050, 0.050000]
+Quadrature Set:        Dummy S2 with 96 points
+Parallel method:       Sweep
+Loop Nesting Order     DGZ
+Number iterations:     10
+GroupSet/Groups:       2 sets, 16 groups/set
+DirSets/Directions:    8 sets, 12 directions/set
+Zone Sets:             1,1,1
+  Comparing GDZ to DGZ for kernel LTimes
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to DGZ for kernel LPlusTimes
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to DGZ for kernel scattering
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to DGZ for kernel source
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to DGZ for kernel Sweep
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+<end of output>
+Test time =  25.39 sec
+----------------------------------------------------------
+Test Passed.
+"test_default_dgz" end time: Mar 06 19:53 EST
+"test_default_dgz" time elapsed: 00:00:25
+----------------------------------------------------------
+
+2/14 Testing: test_default_dzg
+2/14 Test: test_default_dzg
+Command: "/home/liu/kripke/kripke-openmp-1.1/build/kripke" "--nest" "dzg" "--test"
+Directory: /home/liu/kripke/kripke-openmp-1.1/build
+"test_default_dzg" start time: Mar 06 19:53 EST
+Output:
+----------------------------------------------------------
+
+----------------------------------------------------------------------
+------------------------ KRIPKE VERSION 1.1 --------------------------
+----------------------------------------------------------------------
+This work was produced at the Lawrence Livermore National Laboratory
+(LLNL) under contract no. DE-AC-52-07NA27344 (Contract 44) between the
+U.S. Department of Energy (DOE) and Lawrence Livermore National
+Security, LLC (LLNS) for the operation of LLNL. The rights of the
+Federal Government are reserved under Contract 44.
+
+Main Contact: Adam J. Kunen <kunen1@llnl.gov>
+----------------------------------------------------------------------
+Number of MPI tasks:   1
+Processors:            1 x 1 x 1
+Zones:                 16 x 16 x 16
+Legendre Order:        4
+Total X-Sec:           sigt=[0.100000, 0.000100, 0.100000]
+Scattering X-Sec:      sigs=[0.050000, 0.000050, 0.050000]
+Quadrature Set:        Dummy S2 with 96 points
+Parallel method:       Sweep
+Loop Nesting Order     DZG
+Number iterations:     10
+GroupSet/Groups:       2 sets, 16 groups/set
+DirSets/Directions:    8 sets, 12 directions/set
+Zone Sets:             1,1,1
+  Comparing GDZ to DZG for kernel LTimes
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to DZG for kernel LPlusTimes
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to DZG for kernel scattering
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to DZG for kernel source
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to DZG for kernel Sweep
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+<end of output>
+Test time =  25.67 sec
+----------------------------------------------------------
+Test Passed.
+"test_default_dzg" end time: Mar 06 19:54 EST
+"test_default_dzg" time elapsed: 00:00:25
+----------------------------------------------------------
+
+3/14 Testing: test_default_gdz
+3/14 Test: test_default_gdz
+Command: "/home/liu/kripke/kripke-openmp-1.1/build/kripke" "--nest" "gdz" "--test"
+Directory: /home/liu/kripke/kripke-openmp-1.1/build
+"test_default_gdz" start time: Mar 06 19:54 EST
+Output:
+----------------------------------------------------------
+
+----------------------------------------------------------------------
+------------------------ KRIPKE VERSION 1.1 --------------------------
+----------------------------------------------------------------------
+This work was produced at the Lawrence Livermore National Laboratory
+(LLNL) under contract no. DE-AC-52-07NA27344 (Contract 44) between the
+U.S. Department of Energy (DOE) and Lawrence Livermore National
+Security, LLC (LLNS) for the operation of LLNL. The rights of the
+Federal Government are reserved under Contract 44.
+
+Main Contact: Adam J. Kunen <kunen1@llnl.gov>
+----------------------------------------------------------------------
+Number of MPI tasks:   1
+Processors:            1 x 1 x 1
+Zones:                 16 x 16 x 16
+Legendre Order:        4
+Total X-Sec:           sigt=[0.100000, 0.000100, 0.100000]
+Scattering X-Sec:      sigs=[0.050000, 0.000050, 0.050000]
+Quadrature Set:        Dummy S2 with 96 points
+Parallel method:       Sweep
+Loop Nesting Order     GDZ
+Number iterations:     10
+GroupSet/Groups:       2 sets, 16 groups/set
+DirSets/Directions:    8 sets, 12 directions/set
+Zone Sets:             1,1,1
+  Comparing GDZ to GDZ for kernel LTimes
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to GDZ for kernel LPlusTimes
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to GDZ for kernel scattering
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to GDZ for kernel source
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+  Comparing GDZ to GDZ for kernel Sweep
+    -- allocating
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+Unknown counts: psi=12582912, rhs=12582912, phi=3276800, phi_out=3276800
+Region volumes: Reg1=8.789062e+03, Reg2=1.177734e+05, Reg3=2.753438e+06
+    -- randomizing data
+    -- running kernels
+    -- comparing results
+    -- OK
+
+<end of output>
+Test time =  25.20 sec
+----------------------------------------------------------
+Test Passed.
+"test_default_gdz" end time: Mar 06 19:54 EST
+"test_default_gdz" time elapsed: 00:00:25
+----------------------------------------------------------
+
